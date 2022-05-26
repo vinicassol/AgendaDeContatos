@@ -1,9 +1,13 @@
-#include "Cliente.h"
-#include "Fornecedor.h"
+#include "Agenda.h"
 
 int main()
 {
-	Contato contato;
+	// agenda (a minusculo) eh um objeto da classe 
+	// Agenda (a maiusculo)
+	Agenda agenda;
+	agenda.Executar();
+
+	/*Contato contato;
 	Cliente cliente;
 	Fornecedor fornecedor;
 
@@ -40,4 +44,5 @@ int main()
 	cout << "\n\nContato Fornecedor: \n";
 	cout << fornecedor.GetNome() << " - "  << fornecedor.GetAniversario() << " - " << fornecedor.GetEndereco() << " - ";
 	cout << fornecedor.GetEmail() << " - " << fornecedor.GetTelefone() << " - "  <<fornecedor.GetIndiceQualidade() << endl;
+	*/
 }

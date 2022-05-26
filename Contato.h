@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 #ifndef CONTATO_H
