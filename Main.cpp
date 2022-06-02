@@ -2,10 +2,47 @@
 
 int main()
 {
+
+	Contato c;
+	Fornecedor f;
+	Cliente cli;
+
+	c.SetNome("Contato Normal");
+	c.SetEndereco("Rua Tal");
+	c.SetTelefone("51 3278 9897");
+	c.SetAniversario("12/02");
+	c.SetEmail("normal@email.com");
+	
+
+	f.SetNome("Contato Fornecedor");
+	f.SetEndereco("Avenida Manoel Elias");
+	f.SetAniversario("02/06");
+	f.SetEmail("fornecedor@contato.com");
+	f.SetTelefone("0800-1234");
+	f.SetIndiceQualidade(10);
+
+
+	cli.SetNome("Cliente");
+	cli.SetAniversario("16/06");
+	cli.setDataUltimaCompra("31/05");
+	cli.SetEmail("cliente@email.com");
+	cli.SetTelefone("51 99987 7463");
+	cli.SetEndereco("Minha Casa");
+	cli.setStatusFidelidade("CLIENTE VIP");
+
+	c.MostrarDetalhes();
+	f.MostrarDetalhes();
+	cli.MostrarDetalhes();
+
+	system("pause");
+
+
+
+
 	// agenda (a minusculo) eh um objeto da classe 
 	// Agenda (a maiusculo)
-	Agenda agenda;
-	agenda.Executar();
+	//Agenda agenda;
+	//agenda.Executar();
 
 	/*Contato contato;
 	Cliente cliente;

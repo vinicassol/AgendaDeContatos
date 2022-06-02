@@ -41,3 +41,12 @@ string Contato::GetEmail()
 {
 	return email;
 }
+
+void Contato::MostrarDetalhes()
+{
+	cout << "Nome: " << nome << endl;
+	cout << "Endereco: " << endereco << endl;
+	cout << "Telefone: " << telefone << endl;
+	cout << "Aniversario: " << aniversario << endl;
+	cout << "E-Mail: " << email << endl;
+}

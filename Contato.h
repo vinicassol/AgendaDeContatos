@@ -19,6 +19,8 @@ public:
 	string GetAniversario();
 	string GetEmail();
 
+	void MostrarDetalhes();
+
 protected:
 	string nome;
 	string endereco;

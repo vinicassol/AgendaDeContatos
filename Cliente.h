@@ -9,6 +9,7 @@ public:
 	void setStatusFidelidade(string _statusFidelidade);
 	string getDataUltimaCompra();
 	string getStatusFidelidade();
+	void MostrarDetalhes();
 
 private:
 	string dataUltimaCompra;

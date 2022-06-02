@@ -17,3 +17,10 @@ string Cliente::getStatusFidelidade()
 {
 	return statusFidelidade;
 }
+
+void Cliente::MostrarDetalhes()
+{
+	Contato::MostrarDetalhes();
+	cout << "Data da ultima Compra: " << dataUltimaCompra << endl;
+	cout << "Status Fidelidade: " << statusFidelidade << endl;
+}

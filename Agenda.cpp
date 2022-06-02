@@ -126,7 +126,7 @@ void Agenda::ListarContatos()
 {
 	for (int i = 0; i < contatos.size(); i++)
 	{
-		cout << contatos[i].GetNome() << " - " << contatos[i].GetEmail() << endl;
+		contatos[i].MostrarDetalhes();
 	}
 }
 
@@ -136,4 +136,6 @@ void Agenda::ConsultarContato()
 	//Percorrer o vetor e compar com o nome de busca
 	//Quando encontrar, mostrar os detalhes
 	//Perguntar se deseja atualizar ou excluir
+
+	
 }
